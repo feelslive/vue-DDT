@@ -1,6 +1,6 @@
 <template>
 	<div class="heder">
-		<router-link to='/'><i class="logo-i">L</i></router-link>
+		<router-link to='/accoutapply'><i class="logo-i">L</i></router-link>
 		<h1>{{tit}}</h1>
 		<router-link to='/enroll'><i class="h-i"></i></router-link>
 	</div>

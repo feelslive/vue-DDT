@@ -5,6 +5,7 @@ import Home from '@/components/Home'
 import Project from '@/components/Project'
 import Mycenter from '@/components/Mycenter'
 import More from '@/components/More'
+import accoutapply from '@/components/accoutapply'
 import enroll from '@/components/account/enroll'
 import login from '@/components/account/login'
 
@@ -42,6 +43,11 @@ export default new Router({
       path: '/login',
       name: 'login',
       component: login
+    },
+    {
+      path: '/accoutapply',
+      name: 'accoutapply',
+      component: accoutapply
     }
   ]
 })
